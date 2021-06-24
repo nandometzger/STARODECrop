@@ -41,6 +41,7 @@
             "request": "launch",
             "program": "/home/pf/pfstud/metzgern_PF/ODE_Nando/ODE_crop_Project/run_models.py",
             "console": "integratedTerminal",
+            "justMyCode": false,
             "args": [
                 //#python run_models.py --niters 20 -n 300000 -validn 60000 -b 600 --ode-rnn --rnn-cell gru --random-seed 6001 --stack-order gru -BN=true --topper=true
                 "--niters", "20",
@@ -67,6 +68,7 @@
             "request": "launch",
             "program": "/home/pf/pfstud/metzgern_PF/ODE_Nando/ODE_crop_Project/run_models.py",
             "console": "integratedTerminal",
+            "justMyCode": false,
             "args": [
                 "--niters", "30",
                 "-n", "300000",
@@ -88,7 +90,7 @@
                 "-BN", "true",
                 "--trainsub", "1",
                 "--testsub", "1",
-                "--n_intermediate_tp", "11"
+                "--n_intermediate_tp", "2"
             ]
         },
         {
